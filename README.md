@@ -6,9 +6,9 @@ This a simple layout based on Grid and Flex CSS modules
 
 ## Build with
 
-- [ReactJS](legacy.reactjs.org/)
-- [HTML](docs.readme.com/main/docs/linking-to-pages)
-- [CSS](developer.mozilla.org/en-US/docs/Web/CSS) - [Grid](developer.mozilla.org/en-US/docs/Web/CSS/grid) and [Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) modules
+- [ReactJS](https://legacy.reactjs.org/)
+- [HTML](https://docs.readme.com/main/docs/linking-to-pages)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) and [Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) modules
 
 ## ReactJS packages
 
