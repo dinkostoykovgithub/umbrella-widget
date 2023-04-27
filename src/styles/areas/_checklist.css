@@ -1,0 +1,18 @@
+.checklist__item {
+    position: relative;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 20px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.checklist__item svg {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-size: 17px;
+}
+
+.checklist__item-label {
+    display: inline-flex;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #333a40;
+}
+
+a, а:active {
+  color: #333a40;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #333a40;
+}
+
+@media (min-width: 1280px) {
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.area-label {
+  font-size: 10px;
+  padding: 4px 7px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #fff;
+  background: #FF5762;
+  z-index: 20;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.primary-button {
+  display: inline-block;
+  background: #00aa57;
+  font-size: 16px;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  padding: 16px 25px 15px 25px;
+  cursor: pointer;
+}
+
+@media (min-width: 1280px) {
+  .primary-button {
+    transition: all 0.3s;
+  }
+  
+  .primary-button:hover {
+    background: #419656;    
+  }
+}
+
+.lock-icon {
+  display: inline-block;
+  width: 12px;
+  height: 17px;
+  margin: 0 7px 0 0 ;
+  background: url('../../images/lock.png') center center / 12px 17px;
+}
+

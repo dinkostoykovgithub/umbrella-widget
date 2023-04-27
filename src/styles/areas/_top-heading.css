@@ -1,0 +1,27 @@
+.heading-container {
+    margin: 60px 0 20px 0;
+  }
+  
+  .main-heading {
+    font-size: 27px;
+    color: #333a40;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+  }
+  
+  .sub-heading-area {
+    font-size: 18px;
+    color: #6C6C78;
+  }
+
+  .sub-heading-item {
+    display: inline-flex;
+    justify-items: center;
+    margin: 0 0 0 7px;
+  }
+
+  .sub-heading-item svg {
+    font-size: 17px;
+    margin-right: 7px;
+  }

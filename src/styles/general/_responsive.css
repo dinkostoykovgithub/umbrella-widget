@@ -1,0 +1,382 @@
+
+  /* 
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */
+  
+  @media (min-width: 1281px) {
+    
+    /* CSS */
+
+    .grid-area {
+        grid-template-columns: 80px 190px 200px 320px 260px auto;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .grid-area {
+        grid-template-columns: 80px 190px 200px 320px 260px auto;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+    .wrapper {
+        max-width: 820px;
+    }
+
+    .grid-area {
+        padding: 10px 0;
+        grid-template-columns: 40px auto auto auto auto auto;
+        grid-template-areas:
+          'col1 col2 col3 col3 col4 col4'
+          'col1 col2 col6 col6 col6 col6'
+          'col5 col5 col5 col5 col5 col5'
+          'full full full full full full';
+    }
+
+    .area__item1 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .area__item3 {
+      justify-content: flex-start;
+    }
+
+    .heading-container {
+        margin: 30px 0 10px 0;
+    }
+
+    .info-area {
+      width: 170px;
+      height: 170px;
+    }
+
+    .info-icon {
+      top: 2px;
+      right: -20px;
+    }
+
+    .rating-heading {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .bonus {
+      width: 250px;
+      height: 96px;
+    }
+
+    .bonus__top-label {
+      font-size: 20px;
+    }
+
+    .bonus__info {
+      font-size: 19px;
+    }
+
+    .checklist {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+
+    .checklist__item {
+      margin: 0;
+    }
+
+    .checklist__item-label {
+      font-size: 14px;
+    }
+
+    .primary-button {
+      width: 475px;
+    }
+
+    .terms-area {
+      font-size: 11px;
+      color: #868688;
+      margin-left: 25px;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .wrapper {
+        max-width: 390px;
+    }
+
+    .grid-area {
+        grid-template-columns: 25px auto auto auto auto auto;
+        grid-template-areas:
+          'col1 col2 col3 col3 col3 col3'
+          'col4 col4 col4 col4 col4 col4'
+          'col6 col6 col6 col6 col6 col6'
+          'col5 col5 col5 col5 col5 col5'
+          'full full full full full full';
+    }
+    
+    .area__item {
+      padding: 8px 8px;
+      justify-content: center;
+    }
+
+    
+    .area__item1 {
+      position: static;
+    }
+    
+    .area__item2 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    .area__item3 {
+      padding-left: 0;
+    }
+
+    .area__item6 {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .area__user-choice .area-label {
+      top: 40px;
+      left: -10px;
+    }
+
+    .heading-container {
+      margin: 10px 0 20px 0;
+    }
+
+    .sub-heading-area {
+      display: flex;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .area__user-num {
+      position: absolute;
+      top: 8px;
+      right: 15px;
+    }
+
+    .area__user-choice {
+      position: static;
+    }
+
+    .info-area {
+      width: 124px;
+      height: 124px;
+    }
+
+    .info-icon {
+      right: -10px;
+      top: 0;
+    }
+
+    .rating-heading{
+      font-size: 19px;
+      margin-bottom: 3px;
+      text-align: center;
+    }
+
+    .rating__stars {
+      margin: 0;
+    }
+
+    .bonus {
+      width: 300px;
+      height: 130px;
+    }
+
+    .bonus__info {
+      font-size: 27px;
+    }
+
+    .primary-button {
+      width: 300px;
+    }
+
+    .checklist {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .play-area {
+      text-align: center;
+    }
+
+    .checklist__item-label {
+      font-size: 14px;
+    }
+
+    .terms-area {
+      font-size: 9px;
+      text-align: center;
+      padding: 0 16px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .wrapper {
+      padding: 0 10px;
+      max-width: 360px;
+  }
+
+  .grid-area {
+      grid-template-columns: 25px auto auto auto auto auto;
+      grid-template-areas:
+        'col1 col2 col3 col3 col3 col3'
+        'col4 col4 col4 col4 col4 col4'
+        'col6 col6 col6 col6 col6 col6'
+        'col5 col5 col5 col5 col5 col5'
+        'full full full full full full';
+  }
+  
+  .area__item {
+    padding: 8px 8px;
+    justify-content: center;
+  }
+
+  .area__item1 {
+    position: static;
+  }
+
+  .area__item2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .area__item3 {
+    padding-left: 0;
+  }
+
+  .area__user-choice .area-label {
+    top: 40px;
+    left: -10px;
+  }
+
+  .heading-container {
+    margin: 10px 0 20px 0;
+  }
+
+  .sub-heading-area {
+    display: flex;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .lock-icon {
+    margin-right: 3px;
+  }
+
+  .sub-heading-item svg {
+    font-size: 16px;
+    margin-right: 3px;
+  }
+
+  .sub-heading-item {
+    margin: 0 0 0 3px;
+  }
+
+  .area__user-num {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+  }
+
+  .area__user-choice {
+    position: static;
+  }
+
+  .info-area {
+    width: 124px;
+    height: 124px;
+  }
+
+  .info-icon {
+    right: -10px;
+    top: 0;
+  }
+
+  .rating-heading{
+    font-size: 19px;
+    margin-bottom: 3px;
+    text-align: center;
+  }
+
+  .rating__stars {
+    margin: 0;
+  }
+
+  .bonus {
+    width: 300px;
+    height: 130px;
+  }
+
+  .bonus__info {
+    font-size: 27px;
+  }
+
+  .primary-button {
+    width: 300px;
+  }
+
+  .area__item6 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .checklist {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .checklist__item-label {
+    font-size: 14px;
+  }
+
+  .play-area {
+    text-align: center;
+  }
+
+  .terms-area {
+    font-size: 9px;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+    
+}

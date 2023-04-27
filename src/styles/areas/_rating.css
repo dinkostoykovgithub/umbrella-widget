@@ -1,0 +1,20 @@
+.rating-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.rating__stars {
+    font-size: 32px;
+    line-height: 1;
+    color: #ffc400;
+    margin: 0 0 5px 0;
+    white-space: nowrap;
+}
+
+.rating__score {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffc400;
+}

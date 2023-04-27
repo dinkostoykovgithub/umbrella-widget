@@ -1,0 +1,20 @@
+  .area__user-choice {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .area__user-num {
+    color: #FF5762;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .area__user-choice .area-label {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+  }

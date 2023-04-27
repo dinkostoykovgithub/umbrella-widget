@@ -1,0 +1,12 @@
+@import './general/_general.css';
+@import './general/_helpers.css';
+@import './general/_grid.css';
+@import './areas/_top-heading.css';
+@import './areas/_user.css';
+@import './areas/_info.css';
+@import './areas/_rating.css';
+@import './areas/_bonus.css';
+@import './areas/_checklist.css';
+@import './areas/_play.css';
+@import './areas/_terms.css';
+@import './general/_responsive.css';
