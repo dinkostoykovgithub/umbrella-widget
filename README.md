@@ -16,4 +16,4 @@ This a simple layout based on Grid and Flex CSS modules
 
 ## How to Install and Run the Project
 
- - run **npm i** && **npm start** to start project
+ - run **npm i** && **npm start** to start the project
