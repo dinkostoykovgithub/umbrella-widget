@@ -3,6 +3,9 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 import { HiLockClosed } from "react-icons/hi";
 import { BsStarFill } from "react-icons/bs";
 import { BsStarHalf } from "react-icons/bs";
+import { BsStar } from "react-icons/bs";
+
+import { Rating } from 'react-simple-star-rating'
 
 const UmbrellaWidget = () => {
     return (
@@ -31,7 +34,13 @@ const UmbrellaWidget = () => {
                     <div className="rating-heading">PlayOjo Casino</div>
                         <div className="rating">
                             <div className="rating__stars">
-                            < BsStarFill />< BsStarFill />< BsStarFill />< BsStarFill />< BsStarHalf />
+                            {/* < BsStarFill />< BsStarFill />< BsStarFill />< BsStarFill />< BsStarHalf /> */}
+                            <Rating
+                                allowFraction
+                                initialValue={4.5}
+                                emptyIcon={<BsStar size={32} fill="#ffc400" />}
+                                fillIcon={<BsStarFill size={32} fill="#ffc400" />}
+                            />
                             </div>
                             <div className="rating__score">4.5/5</div>
                         </div>
