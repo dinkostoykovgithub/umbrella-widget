@@ -17,7 +17,7 @@
 }
 
 .bonus__top-label {
-    background-color: #fff;
+    position: relative;
     font-size: 23px;
     font-weight: 700;
     text-transform: uppercase;
@@ -31,10 +31,10 @@
 .bonus__top-label::before {
     content: '';
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: absolute;
     left: 0;
-    top: -50%;
+    top: 0;
     background-color: #fff;
 }
 
