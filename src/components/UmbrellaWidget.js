@@ -39,7 +39,7 @@ const UmbrellaWidget = () => {
                 </div>
                 <div className="area__item area__item4">
                     <div className="bonus">
-                        <span className="bonus__top-label">Bonus</span>
+                        <span className="bonus__top-label"><span className="bonus__top-label-text">Bonus</span></span>
                         <span className="area-label">Exclusivite</span>
                         <div className="bonus__info">
                             <div className="bonus__info-title">250 CA$</div>
